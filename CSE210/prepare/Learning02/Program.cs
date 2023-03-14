@@ -12,15 +12,15 @@ class Program
         job1._endYear = 2017;
 
         Job job2 = new Job();
-        job1._jobTitle = "Technical Sales Consultant";
-        job1._company = "CEMES";
-        job1._startYear = 2021;
-        job1._endYear = 2023;
+        job2._jobTitle = "Technical Sales Consultant";
+        job2._company = "CEMES";
+        job2._startYear = 2021;
+        job2._endYear = 2023;
 
         Curriculum myResume = new Curriculum();
         myResume._name = "Miguel Arcos";
-        myResume._jobs.Add(job2);
         myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
 
         myResume.Display();        
     }
