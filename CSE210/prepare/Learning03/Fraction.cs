@@ -30,4 +30,5 @@ public class Fraction
     {
         return (double)_top / (double)_bottom;
     }
+    
 }

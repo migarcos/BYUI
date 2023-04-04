@@ -20,6 +20,5 @@ class Program
         Console.WriteLine(fraction4.GetfractionString());
         Console.WriteLine(fraction4.GetDecimalValue());
         
-    }
-    
+    }    
 }
